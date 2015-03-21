@@ -1,0 +1,15 @@
+.sidenote {
+	border-top: 1px solid #000;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-right: 3rem;
+	font-size: rem-calc(12);
+
+	&:before {
+		content: '* ';
+	}
+
+	@media #{$medium-up} {
+		width: 60%;
+	}
+}

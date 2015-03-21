@@ -1,0 +1,68 @@
+$vertical-rhythm: rem-calc(24);
+$section-gap: rem-calc(12);
+
+
+body {
+	background: #fff url('../img/dot-bg-24.png') repeat top left;
+}
+
+p a {
+	border-bottom: 1px solid $primary-color;
+
+	&:hover {
+		border-bottom: none;
+	}
+}
+
+.title-between {
+	margin: $section-gap auto;
+}
+
+.text-sketched {
+	font-family: $font-family-handwritten;
+	font-size: $vertical-rhythm;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.about-me {
+	background: transparent url('../img/about_me_bg.png') no-repeat top left;
+	background-size: cover;
+	background-color: rgba(206, 206, 206, 0.25);
+	margin: 3*$vertical-rhythm auto;
+
+	@media #{$medium-up} {
+		min-height: 400px;
+		background-size: contain;
+	}
+
+	&__text {
+		background-color: rgba(255,255,255,0.6);
+		padding-top: $vertical-rhythm;
+
+		@media #{$medium-up} {
+			padding-top: 7rem;
+			background-color: initial;
+		}
+	}
+}
+
+.process {
+	.columns {
+		margin-bottom: $vertical-rhythm;
+
+		@media #{$medium-up} {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.drop {
+	float: left;
+	font-size: 2rem;
+	line-height: 2*$vertical-rhythm;
+	padding: 0 $vertical-rhythm/2;
+	font-family: $font-family-handwritten;
+}

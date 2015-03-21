@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Andrej Minarik -- design & code -- @andrejminarik
+
+# THANKS
+
+    To awesome people I learn from all the time
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, Modernizr, Normalize.css

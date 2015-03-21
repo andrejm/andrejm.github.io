@@ -1,0 +1,29 @@
+.hero {
+	margin: $vertical-rhythm auto;
+
+	@media #{$medium-up} {
+		margin: 2*$vertical-rhythm auto;
+	}
+
+	&__photo {
+		border: 1px solid transparent;
+		border-radius: 50%;
+		margin-bottom: $vertical-rhythm;
+
+		@media #{$medium-up} {
+			margin-top: rem-calc(10);
+			margin-bottom: 0;
+		}
+	}
+
+	&__title {
+		border-bottom: 1px solid $jet;
+		padding-bottom: $vertical-rhythm;
+		text-align: center;
+
+		@media #{$medium-up} {
+			text-align: left;
+		}
+	}
+
+}

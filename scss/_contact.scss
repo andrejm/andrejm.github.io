@@ -1,0 +1,8 @@
+.contact {
+	text-align: center;
+	
+	&__email {
+		font-size: rem-calc(20);
+		font-weight: bold;
+	}
+}
